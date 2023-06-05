@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagenes/logoEnglish.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>English Expertise</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header__tittle">
+            <h2>
+                <a href="../index.html">English Expertise</a>
+            </h2>
+        </div>
+        <div class="header__buttons">
+            <button>Registrarse</button>
+            <button>COMENZAR!</button>
+        </div>
+    </header>
+
+    <div id="browser">
+        <nav>
+            <h4 class="browser__tittle"> 
+                <a href="../index.html">
+                    English Expertise
+                </a>
+            </h4>
+            <ul class="browser__li">
+                <li><a href="./cursos.html"> Cursos</a></li>
+                <li><a href="./recursos.html">Recursos</a></li>
+                <li><a href="./experiencia.html">Experiencia</a></li>
+                <li><a href="#"> <!--pendientehacer-->Guía [ÚTIL]</a></li>
+                <li><a href="#"> <!--pendientehacer-->Ayuda</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main id="contact__box">
+        <div class="contact__formulary">
+            <h3>Te contactamos</h3>
+            <p class="greyItems">Completa los campos y nos comunicamos a la brevedad</p>
+            <form>
+                <fieldset>
+                    <div class="blankSpace">
+                        <label for="modalidad">Modalidad:</label>
+                        <input type="radio" name="modality" value="conProfe" /> Con profesora
+                        <input type="radio" name="modality" value="sinProfe" /> Sin profesora, autodidácta
+                    </div>
+                    <div class="blankSpace">
+                        <label for="name">Nombre y Apellido:</label>
+                        <input type="text" name="name" id="name" placeholder="Ingrese nombre y apellido" required>
+                    </div>
+                    <div class="blankSpace">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" placeholder="Ingrese su Email" required>
+                    </div>
+                    <div class="blankSpace">
+                        <label for="phone">Telefono:</label>
+                        <input type="text" name="phone" id="phone" placeholder="Ingrese Número de Teléfono">
+                    </div>
+                    <div class="blankSpace">
+                        <label for="nivelActual">Nivel actual:</label>
+                        <select name="currentLevel">
+                            <option value="chooseLevel" disabled selected>Elegir Nivel</option>
+                            <option value="a11">Nivel A1</option>
+                            <option value="a2">Nivel A2</option>
+                            <option value="b1">Nivel B1</option>
+                            <option value="b2">Nivel B2</option>
+                            <option value="b2+">Nivel B2+</option>
+                            <option value="c1">Nivel C1</option>
+                            <option value="noSe">No sé cuál es mi nivel actual</option>
+                        </select>
+                    </div>
+                    <label for="blankSpace">Consultas:</label>
+                    <textarea name="enquiries" id="enquiries" cols="40" rows="5" placeholder="Escriba su consulta aquí"></textarea>
+                    <div class="blankSpace">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar todo">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="contact__information">
+            <h3>Contactanos</h3>
+            <ul class="greyItems">
+                <li>sg.english.alumnos@gmail.com</li>
+                <li>+549 3571 123456</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <ul class="footer__list"> 
+            <li><a href="./cursos.html"> Cursos</a></li>
+            <li><a href="./recursos.html">Recursos</a></li>
+            <li><a href="./experiencia.html">Experiencia</a></li>
+            <li><a href="#"> <!--pendientehacer-->¿Cómo usar la web?</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
